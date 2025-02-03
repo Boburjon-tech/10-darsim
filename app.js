@@ -215,7 +215,7 @@ function localMax() {
   let lm = [];
   for (let i = 0; i < arriy.length; i++) {
     if (arriy[i] > arriy[i + 1] && arriy[i] > arriy[i - 1]) {
-      lm.push(arriy[i]);
+      lm.push(i);
     }
   }
   return lm;
